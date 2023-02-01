@@ -1,0 +1,133 @@
+.form {
+  background: #202733;
+  padding: 138px 208px;
+}
+
+.form .container {
+  background: url("../../../../assets/img/form.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 58px;
+}
+
+.form-name {
+  padding-top: 35px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 30px;
+  line-height: 137.5%;
+  color: #ffffff;
+  padding-left: 74px;
+  padding-bottom: 28px;
+  width: 300px;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 74px;
+}
+
+.form-input {
+  background: #d9d9d9;
+  opacity: 0.99;
+  border-radius: 20px;
+  width: 443px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+}
+
+textarea {
+  background: #d9d9d9;
+  opacity: 0.99;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 443px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  resize: none;
+  height: 140px;
+}
+
+.form-button {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8.5px);
+  border-radius: 35.3223px;
+  width: 231px;
+  height: 45px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 16px;
+  line-height: 136.6%;
+  cursor: pointer;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  background-color: transparent;
+}
+
+.form-lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 60px;
+}
+
+.form-item {
+  background-color: #47667a;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+
+.form-item:hover {
+  transform: scale(1.2);
+}
+
+.form-modal-name {
+  font-size: 23px;
+  text-align: center;
+  color: #202733;
+}
+.form-close {
+  background: #f5e1b2;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 390px;
+  margin-top: -15px;
+}
+
+.form-modal-link {
+  border: 2px solid #202733;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #202733;
+}
+
+.form-modal-title {
+  text-align: center;
+  padding: 15px 0;
+}

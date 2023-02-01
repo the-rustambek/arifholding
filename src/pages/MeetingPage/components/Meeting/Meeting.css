@@ -1,0 +1,102 @@
+.meeting {
+  background: #fce8bd;
+  padding: 70px 20px;
+  position: relative;
+}
+
+.meeting-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222936;
+}
+
+.meeting-icons{
+  width: 550px;
+}
+
+.meeting-left {
+  margin-left: 50px;
+}
+
+.meeting-title {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.meeting-link {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.meeting-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  background-blend-mode: soft-light;
+  backdrop-filter: blur(18.9779px);
+  border-radius: 109.053px;
+  position: absolute;
+  width: 205.31px;
+  height: 53.25px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 73%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.1148px;
+  line-height: 111.34%;
+  color: #222936;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.meeting-page {
+  display: flex;
+}
+
+.meeting-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.8021px;
+  line-height: 150%;
+  color: #464646;
+  width: 424px;
+}
+
+.meeting-texts {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.8021px;
+  line-height: 150%;
+  color: #464646;
+  padding-right: 100px;
+}
+
+.meeting-box {
+  background-image: url("../../../../assets/img/meting.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.meeting-list {
+  width: 900px;
+  /* height: 273px; */
+  margin: 0 auto;
+}

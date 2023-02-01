@@ -1,0 +1,187 @@
+.content {
+  position: relative;
+}
+
+@font-face {
+  font-family: SF Pro;
+  src: url('../../../../assets/icons/San\ Francisco\ Font.otf');
+}
+
+
+.content .container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+}
+
+.content-imgs{
+  width: 100%;
+  height: 850px;
+}
+
+.content-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 95.7445px;
+  line-height: 103.5%;
+  color: #ffffff;
+  width: 500px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+.content-span {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+  width: 100px;
+  position: relative;
+  left: 78%;
+  margin-top: -55px;
+}
+
+.content-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffdaae;
+  width: 450px;
+  margin-left: -40px;
+}
+
+.content-list {
+  display: flex;
+  margin-left: -20px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.content-btn {
+  margin: 0 20px;
+  background: #5f5e5d;
+  border: none;
+  background-blend-mode: soft-light;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  border-radius: 114.733px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.85px;
+  line-height: 111.34%;
+  width: 216px;
+  height: 56.02px;
+  transition: 0.5s all ease-out;
+}
+
+.content-btn:hover{
+  background-color:rgb(239, 235, 235);
+  color: #000;
+}
+
+
+.content .swiper .swiper-pagination {
+  top: 100%;
+  z-index: 2;
+  position: relative;
+  left: 50%;
+}
+
+.content .swiper .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+
+.content-video-modal {
+  margin-top:-3px;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: 465px;
+}
+
+.close-modal {
+  position: relative;
+  left: 97.5%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.content-img-span {
+  background-color: #655240;
+  border: 2px solid #655240;
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s all ease-in-out;
+  margin-left: -3px;
+}
+.content-img-span:hover svg path {
+  fill: #655240;
+}
+
+.content-img-span:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.content-span-img {
+  background-color: #a39481;
+  border: 2px solid #a39481;
+  width: 50px;
+  height: 50px;
+  margin-left: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s all ease-in-out;
+  margin-left: 5px;
+}
+
+.content-span-img:hover svg path {
+  fill: #a39481;
+}
+
+.content-span-img:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+}

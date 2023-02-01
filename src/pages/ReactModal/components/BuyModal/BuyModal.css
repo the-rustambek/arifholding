@@ -1,0 +1,71 @@
+.modalContainer-buy {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(18px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buymodal .buymodal {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  transition: all 0.4s ease;
+}
+
+.modal_content-buy {
+  width: 400px;
+  height: 400px;
+  background: #fce8bd;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.modalContainer-buy.showbuy {
+  visibility: visible;
+  transition: all 0.2s ease !important;
+}
+
+.modalContainer-buy.showbuy .buymodal {
+  opacity: 1;
+  animation-name: fadeon;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  display: block;
+}
+
+@media (max-width: 550px) {
+  .modal_content-buy {
+    width: 330px;
+    padding: 10px;
+  }
+  body .aside-input {
+    width: 80%;
+  }
+  body .aside-textarea {
+    width: 80%;
+  }
+  body .aside-modal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .aside-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body .aside-modal-close {
+    margin-left: 290px;
+    margin-top: 0;
+  }
+  body .aside-modal-name {
+    font-size: 16px;
+  }
+}

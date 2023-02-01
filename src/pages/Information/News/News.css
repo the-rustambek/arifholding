@@ -1,0 +1,137 @@
+.news {
+  background-color: #fce8bd;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+.news-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222936;
+  margin-bottom: 0;
+}
+.news-button {
+  background: #d9cbac;
+  border-radius: 12px;
+  width: 234px;
+  height: 43px;
+  font-family: "SF Pro";
+  font-style: normal;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2c3442;
+  margin-right: 50px;
+  border: 2px solid #d9cbac;
+}
+
+.news-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-home {
+  display: flex;
+  align-items: center;
+}
+
+.news-home span {
+  margin-left: 0;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.news-link {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.news-title {
+  background: #2c3442;
+  border-radius: 12px;
+  width: 237.64px;
+  height: 283px;
+  transition: 0.5s all ease-out;
+  margin: 10px 23px;
+  cursor: pointer;
+}
+
+.news-title:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.news-subname {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 22.4px;
+  line-height: 14px;
+  color: #fff;
+  margin-bottom: 0;
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.news-subtext {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+  opacity: 0.5;
+  padding-left: 22px;
+  margin-bottom: 20px;
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-links {
+  background: #4d5767;
+  border-radius: 6px;
+  padding: 9px 55px;
+  margin-left: 8.5px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  transition: 0.5s all ease;
+  border: 1px solid #4d5767;
+}
+
+.news-links:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.news-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -23px;
+}

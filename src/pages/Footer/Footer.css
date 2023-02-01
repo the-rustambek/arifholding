@@ -1,0 +1,122 @@
+.footerr {
+  background: #222936;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.footerr .container {
+  width: 1300px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerr-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fce8bd;
+  margin-left: 55px;
+  margin-top: 60px;
+}
+.footer--list {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.footer-sub {
+  display: flex;
+  align-items: center;
+}
+
+.footerr-link {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fce8bd;
+  opacity: 0.6;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.footerr-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  background: #fff;
+  border-radius: 23px 10px 0px 0px;
+  transition: 0.3s;
+}
+
+.footerr-link:hover {
+  color: #fff;
+}
+
+.footerr-link:hover::before {
+  transform: scaleX(1);
+}
+
+.footer-item {
+  margin: 15px 0;
+}
+.footerr-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fce8bd;
+  width: 280px;
+  margin: 0 25px;
+}
+
+.footerr-texts {
+  width: 100%;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 22px;
+  line-height: 26px;
+  color: #fce8bd;
+}
+
+.footerr-links {
+  background: #fce8bd;
+  border-radius: 2240.1px;
+  width: 57.35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 59.14px;
+}
+
+.footer-lists {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: -55px;
+}
+
+.footerr-items {
+  margin: 0 10px;
+}
+
+/* .footer-logo {
+  transition: 0.5s;
+}
+
+.footer-logo:hover {
+  transform: scale(1.5);
+} */

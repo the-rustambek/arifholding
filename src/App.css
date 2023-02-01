@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar {
+  height: 0px;
+  border-radius: 54px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar-thumb {
+  background: #fce8bd !important;
+  border-radius: 54px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.meetingpage-navbar {
+  display: none;
+}

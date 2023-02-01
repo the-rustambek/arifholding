@@ -1,0 +1,67 @@
+.slider {
+  background: #fce8bd;
+  padding: 85px 0;
+  position: relative;
+  margin-top: -10px;
+}
+
+.slider-list {
+  background: linear-gradient(95.06deg, #596E97 0%, #404A5E 50%, #272C35 100%);
+  border-radius: 0px 56.6876px 56.6876px 56.6876px;
+  width: 900px;
+  height: 273px;
+  margin: 0 auto;
+}
+  
+.App .slider .slider-pic{
+  width: 180px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+.slider-title {
+  display: flex;
+}
+
+.slider-span {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.slider-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 20px;
+  line-height: 126.34%;
+  color: #ffffff;
+  width: 500px;
+  padding-left: 40px;
+}
+
+.slider-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 18px;
+  line-height: 126.34%;
+  color: #ffffff;
+  width: 450px;
+  margin-left: -10px;
+}
+
+.slider-img {
+  position: absolute;
+  top: 15%;
+  left: -36%;
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+}
+
+.slider-pic {
+  margin-left: 100px;
+  margin-top: -20px;
+}

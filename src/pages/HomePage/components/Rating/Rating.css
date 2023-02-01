@@ -1,0 +1,49 @@
+.rating {
+  background: url("../../../../assets/img/rating.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 85px;
+  padding-bottom: 135px;
+  margin-top: -25px;
+}
+
+.rating-list {
+  margin: 0 50px;
+}
+
+.rating-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 136.6%;
+  color: #ffffff;
+}
+
+.rating-number {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 136.6%;
+  color: #ffffff;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+}
+
+.rating-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 126.34%;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.rating-title {
+  display: flex;
+  margin-left: -50px;
+}

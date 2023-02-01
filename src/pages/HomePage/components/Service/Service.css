@@ -1,0 +1,61 @@
+.service {
+  background: #fce8bd;
+  padding: 30px 0;
+}
+
+.service-title {
+  background: #2c3442;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  width: 570px;
+  height: 179px;
+  display: flex;
+  margin: 15px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+.service-title:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.service-title:nth-child(2) {
+  width: 400px;
+  height: 179px;
+}
+
+
+.service-title:nth-child(3) {
+  width: 400px;
+  height: 179px;
+}
+.service-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 30px;
+  line-height: 136.6%;
+  color: #000000;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.service-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 136.6%;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+}

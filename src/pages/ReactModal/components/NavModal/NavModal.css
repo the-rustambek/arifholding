@@ -1,0 +1,36 @@
+.nav-modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(18px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navmodal .navmodal {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  transition: all 0.4s ease;
+}
+
+.nav-modal_content {
+  width: 300px;
+  height: 100vh;
+  background: #fce8bd;
+}
+.nav-modalContainer.navshow {
+  visibility: visible;
+  transition: all 0.2s ease !important;
+}
+
+.nav-modalContainer.navshow .navmodal {
+  opacity: 1;
+  animation-name: fadeon;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+  display: block;
+}

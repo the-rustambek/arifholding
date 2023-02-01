@@ -1,0 +1,171 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+
+  .App .meetingpage .meeting-img {
+    width: 770px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 100%;
+  }
+
+  .meeting .meeting-icons {
+    width: 450px;
+  }
+
+  .meeting .meeting-text {
+    font-size: 12px;
+    width: 400px;
+  }
+
+  .meeting .meeting-button {
+    top: 60%;
+    width: 170px;
+    font-size: 12px;
+  }
+
+  .meeting .meeting-imgs {
+    width: 40px;
+  }
+
+  .meeting .meeting-span {
+    margin: 0 10px;
+  }
+
+  .App .meetingpage .meeting-img {
+    width: 650px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+
+  .meeting .meeting-page {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 35px;
+  }
+
+  .meeting .meeting-texts {
+    display: none;
+  }
+
+  .meeting .meeting-icons {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .meeting .meeting-left {
+    margin: 0;
+    width: 100%;
+  }
+
+  .meeting .meeting-button {
+    top: 62%;
+  }
+
+  .meeting .meeting-text {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .App .meetingpage .meeting-img {
+    width: 500px;
+  }
+
+  .App .meetingpage .meeting-box {
+    padding: 50px 0;
+  }
+  .meetingpage-navbar {
+    display: block;
+  }
+
+  .App .nav{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .meeting .meeting-icons {
+    height: 350px;
+  }
+
+  .meeting .meeting-button {
+    top: 55%;
+  }
+
+  .App .meetingpage .meeting-img {
+    width: 400px;
+  }
+
+  .App .meetingpage .meeting-list {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    width: 100%;
+  }
+
+  .App .meeting {
+    padding: 40px 10px;
+  }
+
+  .meeting .meeting-icons {
+    border-radius: 27.0444px;
+    height: 300px;
+  }
+
+  .meeting .meeting-button {
+    top: 67%;
+  }
+
+  .meeting .meeting-name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .App .meetingpage .meeting-img {
+    width: 90%;
+  }
+  .nav {
+    display: none;
+  }
+
+  .footerr .footerr-links {
+    width: 45px;
+    height: 47px;
+  }
+  .footerr .footer-title {
+    justify-content: space-around;
+  }
+  .App .footerr {
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}

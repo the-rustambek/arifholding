@@ -1,0 +1,455 @@
+.aside {
+  background: #212733;
+  padding: 100px 0;
+  position: relative;
+  padding-bottom: 0;
+}
+
+.aside-spans {
+  display: none;
+}
+
+.aside-page {
+  background-color: #212733;
+}
+
+.aside-btn {
+  border: 2px solid #ffffff;
+  border-radius: 98.7166px;
+  width: 165px;
+  height: 47.84px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 8px;
+  transition: 0.5s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-active {
+  background-color: #fff;
+  color: #000;
+}
+
+.aside-btn:hover {
+  color: #212733;
+  background-color: #fff;
+}
+.aside-span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.aside-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aside-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 30px;
+  line-height: 136.6%;
+  color: #ffffff;
+  margin-top: -5px;
+}
+
+.aside-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 15px;
+  line-height: 136.6%;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.aside-img {
+  width: 550px;
+  height: 360px;
+}
+
+.aside-page {
+  padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+  position: relative;
+}
+
+.aside-button {
+  position: absolute;
+  top: 72.5%;
+  left: 30%;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 14.5312px;
+  line-height: 136.6%;
+  border: 2px solid #fff;
+  border-radius: 28.5152px;
+  padding: 8.1472px 21.5319px;
+  width: 174.98px;
+  height: 36px;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.aside-button:hover {
+  background-color: #fff;
+  color: #212733;
+  border: 2px solid #212733;
+}
+
+.aside-texts {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 12.8646px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.85;
+  width: 288px;
+}
+
+.aside-subname {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 25px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.aside-titles {
+  align-items: center;
+  display: flex;
+  margin-bottom: -20px;
+}
+
+.aside-logo{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.aside-items {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.aside-left {
+  width: 40%;
+  border-radius: 8px;
+}
+
+.aside-right {
+  width: 57%;
+  margin: 0 250px;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.numbers-closer {
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.numbers-disactive {
+  font-style: normal;
+  opacity: 0.2;
+}
+
+.aside-page .splide__arrow--next {
+  top: 123%;
+  left: 55%;
+  background: #d7b677;
+  border: 0.462753px solid #ffffff;
+}
+
+.aside-page .splide__arrow--prev {
+  top: 123%;
+  left: 45%;
+  background: #d7b677;
+  border: 0.462753px solid #ffffff;
+}
+
+.aside-page .splide__arrow svg {
+  width: 100px;
+  object-fit: contain;
+  height: 10px;
+}
+
+.aside-page .splide__pagination {
+  display: none;
+}
+
+.aside-textarea {
+  background: #f5e0b1;
+  border-radius: 8px;
+  padding: 13px 17px;
+  width: 100%;
+  outline: none;
+  width: 362px;
+  height: 87px;
+}
+
+.aside-modal-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 18px;
+  line-height: 21px;
+  color: #222936;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.aside-modal-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 274;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222936;
+}
+
+.aside-input {
+  background: #f5e0b1;
+  border-radius: 8px;
+  padding: 13px 17px;
+  border: none;
+  width: 362px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.aside-form {
+  width: 100%;
+}
+
+.aside-modal-close {
+  background: #f5e1b2;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: -15px;
+}
+
+.aside-form-submit {
+  background: #222936;
+  border-radius: 94.5403px;
+  width: 106px;
+  height: 35px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.aside-form-submit:hover {
+  background-color: transparent;
+  color: #222936;
+}
+
+.aside-form-call {
+  border: 1px solid #222936;
+  border-radius: 94.5403px;
+  background-color: transparent;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #222936;
+  width: 106px;
+  height: 35px;
+  margin: 0 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-form-call:hover {
+  background-color: #222936;
+  color: #fff;
+  border: 2px solid #222936;
+}
+
+.aside-form-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media (max-width: 1440px) {
+  body .App .aside-right {
+    margin: 0 150px;
+    position: relative;
+    left: 15%;
+  }
+
+  body .aside-img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1280px) {
+  body .App .aside-right {
+    left: 8%;
+  }
+
+  body .App .aside-span {
+    position: relative;
+    left: -5%;
+  }
+
+  body .aside-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1080px) {
+  body .App .aside-btn {
+    margin: 0 8px;
+    width: 120px;
+  }
+
+  body .App .aside-right {
+    left: 4%;
+    width: 100%;
+    margin: 0 80px;
+  }
+
+  body .aside-img {
+    width: 350px;
+    height: 250px;
+  }
+
+  body .aside-subname {
+    font-size: 20px;
+  }
+
+  body .aside-left {
+    width: 40%;
+  }
+
+  body .App .aside-span {
+    left: -8%;
+  }
+
+  body .aside-button {
+    left: 18%;
+  }
+}
+
+@media (max-width: 900px) {
+  body .aside-page {
+    flex-direction: column;
+    display: flex;
+    margin-top: -1px;
+    padding-top: 25px;
+  }
+
+  body .aside-span {
+    display: none;
+  }
+
+  body .aside-left {
+    width: 80%;
+    margin-top: 50px;
+  }
+  body .aside-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  body .App .aside-right {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+  }
+
+  body .App .aside-right {
+    left: 0;
+  }
+
+  body .aside-titles {
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body .aside-button {
+    top: 38%;
+    left: 8%;
+  }
+}
+
+@media (max-width: 680px) {
+  body .App .aside-left {
+    width: 90%;
+  }
+  body .aside-img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  body .aside-button {
+    top: 40%;
+  }
+}
+
+@media (max-width: 450px) {
+  body .aside-title {
+    width: 100%;
+  }
+
+  body .App .aside-btn {
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  body .aside-spans {
+    display: block;
+    position: absolute;
+    top: 43%;
+  }
+  body .App .aside-right {
+    margin-top: 300px;
+  }
+
+  body .aside-button {
+    top: 37%;
+  }
+}

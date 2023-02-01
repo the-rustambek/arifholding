@@ -1,0 +1,66 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+
+  .App .sublime {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 100%;
+  }
+
+  .sublime .sublime-right {
+    display: none;
+  }
+
+  .sublime .sublime-page {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sublime .sublime-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sublime .sublime-pic {
+    height: 3px;
+  }
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+
+  .sublime .sublime-name {
+    font-size: 30px;
+    width: 420px;
+  }
+
+  .sublime .sublime-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    width: 100%;
+  }
+
+  .sublime .sublime-name{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

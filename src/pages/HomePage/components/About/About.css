@@ -1,0 +1,79 @@
+.about {
+  background-image: url("../../../../assets/img/person.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.about .container{
+  padding-bottom: 15px;
+}
+
+.about-subname {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 136.6%;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-left: 35px;
+}
+
+.about-item-link{
+  margin-top: -20px;
+}
+
+.about-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 40px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-top: 150px;
+  width: 400px;
+}
+
+.about-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  width: 360px;
+  padding-bottom: 100px;
+}
+
+.about-btn {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 18px;
+  line-height: 136.6%;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.720862px solid #ffffff;
+  border-radius: 35.3223px;
+  padding: 10.0921px 26.6719px;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background-color: #ffffff;
+  color: #212733;
+  border: 0.720862px solid #212733;
+}

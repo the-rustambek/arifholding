@@ -1,0 +1,85 @@
+.slick-item {
+  background-color: #e0cfaa;
+  box-shadow: 0px 3.50542px 52.5813px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 270px;
+  height: 380px;
+  margin: 15px;
+  cursor: pointer;
+  transition: 0.5s all ease-out;
+}
+
+.slick-item:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.slick-title {
+  width: 100%;
+  transition: 0.5s all ease-out;
+  border-radius: 25px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-title:hover {
+  background-color: #fce8bd;
+}
+
+.slick-name {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 20px;
+  color: #000000;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.slick-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.0217px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: 30px;
+  width: 180px;
+  margin-left: 25px;
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slick-img {
+  width: 250px;
+  object-fit: cover;
+}
+
+.slick-list {
+  display: flex;
+  align-items: center;
+}
+
+.slick {
+  background: #fce8bd;
+  padding: 50px 0;
+  margin-top: -10px;
+}
+
+.slick-names {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 30px;
+  line-height: 136.6%;
+  color: #000000;
+  margin-left: 15px;
+}

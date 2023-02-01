@@ -1,0 +1,207 @@
+.section {
+  background: #f7f7f7;
+  padding: 50px 0;
+}
+
+.section-sub {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.2566px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.85;
+  margin: 0 10px;
+}
+
+.section-img {
+  width: 320px;
+  height: 220px;
+}
+
+.section-list {
+  display: flex;
+  background: #fbfbfb;
+  box-shadow: 0px 3.21616px 33.7697px rgba(0, 0, 0, 0.05);
+  border-radius: 24.1212px;
+  width: 993.79px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.section-items {
+  display: flex;
+  align-items: center;
+}
+
+.section-btn {
+  background: #363f4e;
+  border-radius: 17.4756px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.2566px;
+  line-height: 18px;
+  width: 114.17px;
+  height: 26.21px;
+  border: 1px solid #363f4e;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.section-btn:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+.section-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 21.7091px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.99;
+}
+
+.section-names {
+  margin-left: 90px;
+}
+
+.section-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.85;
+  width: 460px;
+}
+
+.section-item {
+  padding-left: 46px;
+  padding-top: 20px;
+}
+
+.section-link {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.4248px;
+  line-height: 16px;
+  color: #377de7;
+  text-decoration-line: underline;
+  transition: 0.5s;
+}
+
+.section-link:hover {
+  color: #000;
+}
+
+.section-title {
+  background: #2c3442;
+  border-radius: 22.2317px;
+  width: 237.64px;
+  height: 224.68px;
+  margin: 0 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.section-title:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.section-subname {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+  opacity: 0.85;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 22px;
+}
+
+.section-subtext {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.2323px;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.85;
+  width: 170px;
+  padding-left: 22px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  max-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.section-links {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.2323px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  padding-left: 22px;
+}
+
+.section-pic {
+  padding-left: 10px;
+  padding-top: 9px;
+  width: 210px;
+  border-radius: 10px;
+}
+
+.section-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.section-button {
+  background: #2c3442;
+  border-radius: 35.3223px;
+  border: 2px solid #2c3442;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 510;
+  font-size: 16px;
+  line-height: 136.6%;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 12px 35px;
+}
+
+.section-button:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.section-titles {
+  text-align: center;
+  margin: 15px 0;
+  margin-top: 50px;
+}

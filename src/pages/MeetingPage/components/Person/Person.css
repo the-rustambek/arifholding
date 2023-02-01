@@ -1,0 +1,65 @@
+.person {
+  background: #fce8bd;
+  padding: 30px 0;
+  padding-bottom: 50px;
+}
+
+.person .container {
+  width: 1300px;
+}
+
+.person-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 30px;
+  line-height: 136.6%;
+  color: #000;
+  margin-left: 15px;
+}
+
+.person-subname {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22.2518px;
+  line-height: 31px;
+  color: #222936;
+  width: 150px;
+}
+
+.person-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+  width: 280px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.5s all ease-out;
+  border-radius: 15px;
+}
+
+.person-item:hover {
+  background-color: #e3d1ac;
+  border-radius: 15px;
+}
+
+.person-items {
+  margin-left: 15px;
+}
+
+.person-text {
+  width: 150px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.8014px;
+  line-height: 31px;
+  color: #222936;
+}
+
+.person-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

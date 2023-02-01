@@ -1,0 +1,57 @@
+.catalog {
+  background: #fce8bd;
+  padding: 50px 20px;
+}
+
+.catalog-name {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222936;
+}
+
+.catalog-subtext {
+  display: flex;
+  align-items: center;
+}
+
+.catalog-home {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.catalog span {
+  margin-left: 0;
+}
+
+.catalog-text {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #222936;
+  width: 1000px;
+}
+
+.catalog-subname {
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 32px;
+  line-height: 32px;
+  color: #222936;
+  margin-top: 50px;
+}
+
+.catalog-imgs {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
